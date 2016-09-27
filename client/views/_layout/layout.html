@@ -1,0 +1,18 @@
+<head>
+  <link rel="icon" sizes="16x16 32x32" href="/images/favicon.ico">
+  <title>Wall Skills</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<template name="layout">
+  <!--
+  {{> sAlert}}
+  -->
+  {{> Template.dynamic template=navbar }}
+  <main class="ui container-fluid">
+    <div class="ui container">
+      {{> Template.dynamic template=main }}
+    </div>
+  </main>
+</template>
